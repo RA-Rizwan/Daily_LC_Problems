@@ -19,3 +19,4 @@
   }
   return stack.length === 0;
 };
+//using hash map
