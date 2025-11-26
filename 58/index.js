@@ -10,4 +10,6 @@
      else if (length > 0) break;
    }
    return length;
- };
+};
+ 
+//time complexity O(n)
