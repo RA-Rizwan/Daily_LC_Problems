@@ -12,3 +12,6 @@ function plusOne(digits) {
   if (carry) digits.unshift(1);
   return digits;
 };
+
+//time complexity O(n)
+//space complexity O(n)
