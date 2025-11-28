@@ -8,3 +8,4 @@ function addBinary(a, b) {
   const sum = BigInt(aBin) + BigInt(bBin);
   return sum.toString(2);
 };
+//solved using Bigint 
