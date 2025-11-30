@@ -18,3 +18,6 @@ function isPalindrome(s) {
 
   return true;
 };
+
+//Time complexity: O(n)
+//Space complexity: O(n)
