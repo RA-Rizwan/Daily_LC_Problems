@@ -5,3 +5,11 @@
 // The width W should not be larger than the length L, which means L >= W.
 // The difference between length L and width W should be as small as possible.
 // Return an array [L, W] where L and W are the length and width of the web page you designed in sequence.
+
+function constructRectangle(area) {
+  let w = Math.floor(Math.sqrt(area));
+  while (area % w !== 0) {
+    w--;
+  }
+  return [area / w, w];
+};
