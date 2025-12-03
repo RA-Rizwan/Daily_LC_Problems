@@ -13,3 +13,6 @@ function constructRectangle(area) {
   }
   return [area / w, w];
 };
+
+// Time Complexity: ( O(√n) )
+// Space Complexity: ( O(1) ) 
