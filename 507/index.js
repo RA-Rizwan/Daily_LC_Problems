@@ -14,3 +14,6 @@ function checkPerfectNumber(num) {
   }
   return sum === num;
 };
+
+// Time Complexity: ( O(√n) ) 
+// Space Complexity: ( O(1) ) 
