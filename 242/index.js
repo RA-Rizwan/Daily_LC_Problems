@@ -22,3 +22,6 @@ function isAnagram(s, t) {
 
   return true;
 };
+
+// Time complexity: O(n)
+// Space complexity: O(1)
