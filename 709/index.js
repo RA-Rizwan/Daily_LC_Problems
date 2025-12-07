@@ -14,3 +14,6 @@ function toLowerCase(s) {
   }
   return result;
 };
+
+// Time complexity: O(n)
+// Space complexity: O(1)
