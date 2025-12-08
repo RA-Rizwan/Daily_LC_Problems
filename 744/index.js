@@ -16,3 +16,6 @@ function nextGreatestLetter(letters, target) {
   }
   return letters[lo % letters.length];
 };
+
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
