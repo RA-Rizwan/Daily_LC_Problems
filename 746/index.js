@@ -18,3 +18,6 @@ function minCostClimbingStairs(cost) {
   }
   return dp1;
 };
+
+// Time complexity: O(n)
+// Space complexity: O(1)
