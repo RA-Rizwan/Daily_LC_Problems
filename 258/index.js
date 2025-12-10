@@ -5,3 +5,6 @@
 function addDigits(num) {
   return 1 + ((num - 1) % 9);
 };
+
+// Time complexity: O(1)
+// Space complexity: O(1)
