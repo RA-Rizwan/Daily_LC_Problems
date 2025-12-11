@@ -10,3 +10,6 @@ function isUgly(n) {
   while (n % 5 == 0) n /= 5;
   return n == 1;
 };
+
+// Time complexity:O(logn)
+// Space complexity:O(n)
