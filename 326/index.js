@@ -10,3 +10,6 @@ function isPowerOfThree(n) {
   }
   return n === 1;
 };
+
+// Time Complexity: O(log₃ n)
+// Space Complexity: O(1)
